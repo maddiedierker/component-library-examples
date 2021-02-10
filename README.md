@@ -7,7 +7,7 @@ You can set it up locally (steps below), but it's simple enough to convey in a s
 
 ![components](/public/components.png)
 
-Only the React components above are styled (e.g., all <h1>s and the <button> at the bottom are unstyled because they're just HTML elements and there are no global styles). 
+Only the React components above are styled (e.g., all `<h1>`s and the `<button>` at the bottom are unstyled because they're just HTML elements and there are no global styles). 
   
 There is a `<Button>` and `<DangerButton>` component with the same styles applied for each styling solution. Since they are visually the same, these examples display how to:
 - Apply conditional styles using props
