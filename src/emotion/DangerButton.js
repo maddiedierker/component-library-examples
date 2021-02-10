@@ -4,11 +4,11 @@ import colors from '../colors'
 
 const styles = {
   danger: {
-    color: colors.danger,
-    borderColor: colors.danger
+    color: colors.red,
+    borderColor: colors.red
   },
   highlight: {
-    background: colors.danger,
+    background: colors.red,
     color: colors.white
   }
 }

@@ -1,6 +1,6 @@
 const colors = {
-  highlight: 'palevioletred',
-  danger: 'tomato',
+  pink: 'palevioletred',
+  red: 'tomato',
   white: 'white'
 }
 
