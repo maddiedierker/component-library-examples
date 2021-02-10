@@ -1,8 +1,8 @@
 import Button from './Button'
 import * as styles from './button.module.scss'
 
-const DangerButton = ({primary, children}) => (
-  <Button className={styles.danger} primary={primary}>
+const DangerButton = ({highlight, children}) => (
+  <Button className={styles.danger} highlight={highlight}>
     {children}
   </Button>
 )

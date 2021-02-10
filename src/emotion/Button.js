@@ -5,19 +5,19 @@ const styles = {
   btn: {
     background: 'transparent',
     borderRadius: 3,
-    border: `2px solid ${colors.primary}`,
-    color: colors.primary,
+    border: `2px solid ${colors.highlight}`,
+    color: colors.highlight,
     margin: '0 1em',
     padding: '0.25em 1em'
   },
-  primary: {
-    background: colors.primary,
+  highlight: {
+    background: colors.highlight,
     color: colors.white
   }
 }
 
-const Button = ({primary, className, children}) => (
-  <button className={css([styles.btn, primary && styles.primary, className])}>
+const Button = ({highlight, className, children}) => (
+  <button className={css([styles.btn, highlight && styles.highlight, className])}>
     {children}
   </button>
 )

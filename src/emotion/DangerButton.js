@@ -7,14 +7,14 @@ const styles = {
     color: colors.danger,
     borderColor: colors.danger
   },
-  primary: {
+  highlight: {
     background: colors.danger,
     color: colors.white
   }
 }
 
-const DangerButton = ({primary, children}) => (
-  <Button className={css(styles.danger, primary && styles.primary)} primary={primary}>
+const DangerButton = ({highlight, children}) => (
+  <Button className={css(styles.danger, highlight && styles.highlight)} highlight={highlight}>
     {children}
   </Button>
 )

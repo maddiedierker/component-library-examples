@@ -3,14 +3,14 @@
 .btn {
   background: transparent;
   border-radius: 3px;
-  border: 2px solid $colors-primary;
-  color: $colors-primary;
+  border: 2px solid $colors-highlight;
+  color: $colors-highlight;
   margin: 0 1em;
   padding: 0.25em 1em;
 }
 
-.primary {
-  background: $colors-primary;
+.highlight {
+  background: $colors-highlight;
   color: $colors-white;
 }
 
@@ -18,7 +18,7 @@
   color: $colors-danger;
   border: 2px solid $colors-danger;
 
-  &.primary {
+  &.highlight {
     background: $colors-danger;
     color: $colors-white;
   }

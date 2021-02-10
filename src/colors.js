@@ -1,5 +1,5 @@
 const colors = {
-  primary: 'palevioletred',
+  highlight: 'palevioletred',
   danger: 'tomato',
   white: 'white'
 }

@@ -7,7 +7,7 @@ const DangerButton = styled(Button)`
   border-color: ${colors.danger};
 
   ${props =>
-    props.primary &&
+    props.highlight &&
     css`
       background: ${colors.danger};
       color: white;
