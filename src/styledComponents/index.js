@@ -1,5 +1,5 @@
-import Button from './Button';
-import DangerButton from './DangerButton';
+import Button from './Button'
+import DangerButton from './DangerButton'
 
 export {
   Button,

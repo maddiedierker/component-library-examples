@@ -9,12 +9,14 @@ const styles = {
   },
   primary: {
     background: colors.danger,
-    color: 'white'
+    color: colors.white
   }
 }
 
 const DangerButton = ({primary, children}) => (
-  <Button className={css(styles.danger, primary && styles.primary)} primary={primary}>{children}</Button>
+  <Button className={css(styles.danger, primary && styles.primary)} primary={primary}>
+    {children}
+  </Button>
 )
 
 export default DangerButton

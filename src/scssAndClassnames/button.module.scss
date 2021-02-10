@@ -11,7 +11,7 @@
 
 .primary {
   background: $colors-primary;
-  color: white;
+  color: $colors-white;
 }
 
 .danger {
@@ -20,6 +20,6 @@
 
   &.primary {
     background: $colors-danger;
-    color: white;
+    color: $colors-white;
   }
 }

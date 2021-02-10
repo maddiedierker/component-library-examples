@@ -1,4 +1,7 @@
-export default {
+const colors = {
   primary: 'palevioletred',
-  danger: 'tomato'
+  danger: 'tomato',
+  white: 'white'
 }
+
+export default colors

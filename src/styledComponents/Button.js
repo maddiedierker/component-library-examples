@@ -14,7 +14,8 @@ const Button = styled.button`
     css`
       background: ${colors.primary};
       color: white;
-    `};
+    `
+  };
 `
 
 export default Button

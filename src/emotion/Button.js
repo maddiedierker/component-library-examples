@@ -12,7 +12,7 @@ const styles = {
   },
   primary: {
     background: colors.primary,
-    color: 'white'
+    color: colors.white
   }
 }
 

@@ -2,7 +2,6 @@ import * as SCSS from './scssAndClassnames'
 import * as Emotion from './emotion'
 import * as SC from './styledComponents'
 
-// TODO: RUN LINTER
 const App = () => {
   return (
     <>
