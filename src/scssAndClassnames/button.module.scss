@@ -19,7 +19,7 @@
   border: 2px solid $colors-red;
 
   &.highlight {
+    @extend .highlight;
     background: $colors-red;
-    color: $colors-white;
   }
 }
