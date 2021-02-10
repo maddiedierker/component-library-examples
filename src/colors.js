@@ -1,8 +1,4 @@
-const colors = {
+export default {
   primary: 'palevioletred',
   danger: 'tomato'
-}
-
-export {
-  colors
 }

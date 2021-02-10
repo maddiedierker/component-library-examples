@@ -1,5 +1,5 @@
 import styled, {css} from 'styled-components'
-import {colors} from '../constants'
+import colors from '../colors'
 
 const Button = styled.button`
   background: transparent;

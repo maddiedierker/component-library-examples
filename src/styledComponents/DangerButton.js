@@ -1,6 +1,6 @@
 import Button from './Button'
 import styled, {css} from 'styled-components'
-import {colors} from '../constants'
+import colors from '../colors'
 
 const DangerButton = styled(Button)`
   color: ${colors.danger};
