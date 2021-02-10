@@ -1,5 +1,6 @@
-import * as SC from './styledComponents'
 import * as SCSS from './scssAndClassnames'
+import * as Emotion from './emotion'
+import * as SC from './styledComponents'
 
 // TODO: RUN LINTER
 const App = () => {
@@ -14,7 +15,12 @@ const App = () => {
       </p>
 
       <h1>emotion</h1>
-      <p></p>
+      <p>
+        <Emotion.Button>default button</Emotion.Button>
+        <Emotion.Button primary>primary button</Emotion.Button>
+        <Emotion.DangerButton>danger button</Emotion.DangerButton>
+        <Emotion.DangerButton primary>primary danger button</Emotion.DangerButton>
+      </p>
 
       <h1>styled-components</h1>
       <p>
