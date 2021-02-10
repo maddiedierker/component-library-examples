@@ -14,7 +14,7 @@ There is a `<Button>` and `<DangerButton>` component with the same styles applie
 - Build on an existing component (`<DangerButton>` is a fancy wrapper around `<Button>` in each example, but this can be done in many different ways)
 - Extending and overriding base styles
 
-### Set up locally
+# Set up locally
 
 Requirements:
 - node >=10
