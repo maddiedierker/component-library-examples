@@ -1,7 +1,7 @@
 This small app (created with `create-react-app`) displays the same React components using 3 different styling solutions:
-- CSS modules, SCSS, and classnames
-- emotion (CSS-in-JS)
-- styled-components (CSS-in-JS)
+- [CSS modules](https://github.com/css-modules/css-modules), [SCSS](https://sass-lang.com/guide), and [classnames](https://github.com/JedWatson/classnames)
+- [emotion](https://emotion.sh/docs/introduction) (CSS-in-JS)
+- [styled-components](https://styled-components.com/) (CSS-in-JS)
 
 You can set it up locally (steps below), but it's simple enough to convey in a screenshot:
 
