@@ -5,15 +5,26 @@ import * as SCSS from './scssAndClassnames'
 const App = () => {
   return (
     <>
-      <>
+      {/* <h1>styled-components</h1> */}
+      <p>
         <SC.Button>default button</SC.Button>
         <SC.Button primary>primary button</SC.Button>
-        <SC.DangerButton>dangerous button</SC.DangerButton>
-        <SC.DangerButton primary>dangerous primary button</SC.DangerButton>
-      </>
-        <SCSS.Button></SCSS.Button>
-      <>
-      </>
+        <SC.DangerButton>danger button</SC.DangerButton>
+        <SC.DangerButton primary>danger primary button</SC.DangerButton>
+      </p>
+
+      {/* <h1>CSS modules, SCSS, & classnames</h1> */}
+      <p>
+        <SCSS.Button>default button</SCSS.Button>
+        <SCSS.Button primary>primary button</SCSS.Button>
+        <SCSS.DangerButton>danger button</SCSS.DangerButton>
+        <SCSS.DangerButton primary>primary danger button</SCSS.DangerButton>
+      </p>
+
+      <h1>~no styles~</h1>
+      <p>
+        <button>reggler button</button>
+      </p>
     </>
   );
 }

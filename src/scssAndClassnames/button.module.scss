@@ -1,0 +1,25 @@
+@import "colors";
+
+.btn {
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid $colors-primary;
+  color: $colors-primary;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+}
+
+.primary {
+  background: $colors-primary;
+  color: white;
+}
+
+.danger {
+  color: $colors-danger;
+  border: 2px solid $colors-danger;
+
+  &.primary {
+    background: $colors-danger;
+    color: white;
+  }
+}
