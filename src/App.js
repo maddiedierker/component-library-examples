@@ -1,12 +1,19 @@
-import {Button, DangerButton} from './styledComponents'
+import * as SC from './styledComponents'
+import * as SCSS from './scssAndClassnames'
 
+// TODO: RUN LINTER
 const App = () => {
   return (
     <>
-      <Button>default button</Button>
-      <Button primary>primary button</Button>
-      <DangerButton>dangerous button</DangerButton>
-      <DangerButton primary>dangerous primary button</DangerButton>
+      <>
+        <SC.Button>default button</SC.Button>
+        <SC.Button primary>primary button</SC.Button>
+        <SC.DangerButton>dangerous button</SC.DangerButton>
+        <SC.DangerButton primary>dangerous primary button</SC.DangerButton>
+      </>
+        <SCSS.Button></SCSS.Button>
+      <>
+      </>
     </>
   );
 }
