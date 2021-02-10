@@ -1,4 +1,4 @@
-This small app (created with create-react-app) displays the same React components using 3 different styling solutions:
+This small app (created with `create-react-app`) displays the same React components using 3 different styling solutions:
 - CSS modules, SCSS, and classnames
 - emotion (CSS-in-JS)
 - styled-components (CSS-in-JS)
@@ -6,6 +6,13 @@ This small app (created with create-react-app) displays the same React component
 You can set it up locally (steps below), but it's simple enough to convey in a screenshot:
 
 ![components](/public/components.png)
+
+Only the React components above are styled (e.g., all <h1>s and the <button> at the bottom are unstyled because they're just HTML elements and there are no global styles). 
+  
+There is a `<Button>` and `<DangerButton>` component with the same styles applied for each styling solution. Since they are visually the same, these examples display how to:
+- Apply conditional styles using props
+- Build on an existing component (`<DangerButton>` is a fancy wrapper around `<Button>` in each example, but this can be done in many different ways)
+- Extending and overriding base styles
 
 ### Set up locally
 
