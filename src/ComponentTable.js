@@ -2,27 +2,42 @@ import React from "react";
 import Button from "@madkas/cl-test-button";
 import Text from "@madkas/cl-test-text";
 import Card from "@madkas/cl-test-card";
+import {
+  Button as CoreButton,
+  Card as CoreCard,
+  Text as CoreText,
+} from "@madkas/cl-test-core";
+
+function CoreComponents() {
+  return (
+    <div>
+      <CoreButton text="core button" />
+      <CoreText>
+        <div>core text</div>
+      </CoreText>
+      <CoreCard cardText="core card" buttonText="core button" />
+    </div>
+  );
+}
 
 const data = {
-  headers: ["Component", "Version", "Dependencies", "Rendered"],
+  headers: ["Component", "Rendered"],
   columns: [
     {
       component: "Button",
-      version: "1.0.0",
-      dependencies: "Text@0.0.2",
-      rendered: <Button text="hi" />,
+      rendered: <Button text="button text" />,
     },
     {
       component: "Text",
-      version: "1.0.0",
-      dependencies: "",
-      rendered: <Text>sup</Text>,
+      rendered: <Text>some text</Text>,
     },
     {
       component: "Card",
-      version: "1.0.3",
-      dependencies: "Button@^1.0.0, Text@0.0.1",
       rendered: <Card cardText="card text" buttonText="button text" />,
+    },
+    {
+      component: "Core Components (all)",
+      rendered: <CoreComponents />,
     },
   ],
 };
@@ -47,10 +62,6 @@ export default function ComponentTable() {
           <tr key={column.component.toLowerCase()} style={styles.border}>
             <td style={{ ...styles.border, ...styles.td }}>
               {column.component}
-            </td>
-            <td style={{ ...styles.border, ...styles.td }}>{column.version}</td>
-            <td style={{ ...styles.border, ...styles.td }}>
-              {column.dependencies}
             </td>
             <td style={{ ...styles.border, ...styles.td }}>
               {column.rendered}
