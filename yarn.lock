@@ -1480,6 +1480,20 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@madkas/cl-consumer@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@madkas/cl-consumer/-/cl-consumer-1.0.1.tgz#416788cf692c22e442bff912de7013afdd4ecb80"
+  integrity sha512-Olc3XltTrzgh9L+wUK9cxx23/ta1tKI0w8/2CrYCC1+JEppxttppnhiPq/Vd0inm0l9xyecyOsVQ3sA4BDYCXQ==
+  dependencies:
+    "@madkas/cl-test-button" "1.0.5"
+
+"@madkas/cl-test-button@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@madkas/cl-test-button/-/cl-test-button-1.0.5.tgz#190b8ad1e87fcd0c7c3786196c160884bf731494"
+  integrity sha512-p1B2UP7+5fC4+w1ndvzDvV3x2MfS12/prOaRD6J5FFBfB1UWLKLuQkZ980m+sfnwXmBYK7YrBU+MF+WvvYW22w==
+  dependencies:
+    "@madkas/cl-test-text" "^1.0.4"
+
 "@madkas/cl-test-button@1.0.6", "@madkas/cl-test-button@^1.0.5", "@madkas/cl-test-button@^1.0.6":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@madkas/cl-test-button/-/cl-test-button-1.0.6.tgz#3ae62350e2c5c2c2758fd4abd7dfc1949a5db98f"

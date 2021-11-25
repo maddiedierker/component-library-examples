@@ -7,6 +7,7 @@ import {
   Card as CoreCard,
   Text as CoreText,
 } from "@madkas/cl-test-core";
+import ConflictingConsumerButton from "@madkas/cl-consumer";
 
 function CoreComponents() {
   return (
@@ -38,6 +39,10 @@ const data = {
     {
       component: "Core Components (all)",
       rendered: <CoreComponents />,
+    },
+    {
+      component: "cl-consumer",
+      rendered: <ConflictingConsumerButton />,
     },
   ],
 };
