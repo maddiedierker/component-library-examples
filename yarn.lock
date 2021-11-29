@@ -1480,53 +1480,31 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@madkas/cl-consumer@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@madkas/cl-consumer/-/cl-consumer-1.0.1.tgz#416788cf692c22e442bff912de7013afdd4ecb80"
-  integrity sha512-Olc3XltTrzgh9L+wUK9cxx23/ta1tKI0w8/2CrYCC1+JEppxttppnhiPq/Vd0inm0l9xyecyOsVQ3sA4BDYCXQ==
+"@madkas/cl-consumer@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@madkas/cl-consumer/-/cl-consumer-1.0.2.tgz#0f7ca843ecdb4bcc749c82c8d37b8791cec5a8a1"
+  integrity sha512-b0QNIyIEIroWJLsTEUMrJddq7kcBEhtdzwwToxMlZyA0Czl+4UqG3LzZvHoWBvu9PTzBhgbqG9VTPhBk8MGGzw==
   dependencies:
-    "@madkas/cl-test-button" "1.0.5"
+    "@madkas/cl-test-button" "1.0.7"
 
-"@madkas/cl-test-button@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@madkas/cl-test-button/-/cl-test-button-1.0.5.tgz#190b8ad1e87fcd0c7c3786196c160884bf731494"
-  integrity sha512-p1B2UP7+5fC4+w1ndvzDvV3x2MfS12/prOaRD6J5FFBfB1UWLKLuQkZ980m+sfnwXmBYK7YrBU+MF+WvvYW22w==
-  dependencies:
-    "@madkas/cl-test-text" "^1.0.4"
-
-"@madkas/cl-test-button@1.0.6", "@madkas/cl-test-button@^1.0.5", "@madkas/cl-test-button@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@madkas/cl-test-button/-/cl-test-button-1.0.6.tgz#3ae62350e2c5c2c2758fd4abd7dfc1949a5db98f"
-  integrity sha512-33Sk3tGGhxW0wizfu7TcWnt/UBejbk9gNg4WgaJeqiZGxr3IeQ+1aRY1++MgGr6n69/o7+AG0k8sHtYqBx8Xcg==
+"@madkas/cl-test-button@1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@madkas/cl-test-button/-/cl-test-button-1.0.7.tgz#2111d8bac2231df5c396131f6bb67c0995307057"
+  integrity sha512-z+Ipsi2Bth1eO8S5/+n2UZM5L0YAHHivL5NgT0o+NLPJiLCGoYYnBEh0lTiDoZJLbX7+jXZc6qJVsz6u59azzg==
   dependencies:
     "@madkas/cl-test-text" "^1.0.5"
 
-"@madkas/cl-test-card@1.0.9", "@madkas/cl-test-card@^1.0.8":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@madkas/cl-test-card/-/cl-test-card-1.0.9.tgz#5dd547d1f2d1fa1766f816b80c6f8a9dffc25bcd"
-  integrity sha512-PBqVBfjsVI40e5LScY4lRrGBDZQ+rTiEQfJhA/qhAyeGOl1yfhQCq0VuOv3bYhUTE5/sMwhpB/qUaOV4mqDtoQ==
+"@madkas/cl-test-button@^1.0.9":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@madkas/cl-test-button/-/cl-test-button-1.0.10.tgz#b92818540cd990af13708c639e6fb2933e5884ce"
+  integrity sha512-MpO2FeDdoFRRxhIeDi2RWkjeWOE5zcWaG4vLx/0qJx4XWYRhwaDkej63ZOFMt9hx+0SLKMp9MCrytWuuIzajDA==
   dependencies:
-    "@madkas/cl-test-button" "^1.0.6"
-    "@madkas/cl-test-text" "0.0.1"
+    "@madkas/cl-test-text" "^1.0.6"
 
-"@madkas/cl-test-core@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@madkas/cl-test-core/-/cl-test-core-1.0.5.tgz#7f0e3b7fcf0be5cf04385fd018cce6a287b7aca2"
-  integrity sha512-OaejPRfudsdbMG500tRwZHaXwxY8lwzKtdFYsUfUM64K2fmCpmY38qE8wn8A6pVCF5D6yFplRQKT9JH0gnL8vg==
-  dependencies:
-    "@madkas/cl-test-button" "^1.0.5"
-    "@madkas/cl-test-card" "^1.0.8"
-    "@madkas/cl-test-text" "^1.0.4"
-
-"@madkas/cl-test-text@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@madkas/cl-test-text/-/cl-test-text-0.0.1.tgz#db07baf6c7fa21eaf069b4f263d4a7781ed7c21b"
-  integrity sha512-1ATrn/W0PIW687PgWHEz/wALHfu4qfqWCM9ZA4E0J48S2+u5ZAN1G6bgqvRr4hV74Op0cPORzFIQYw9mSBXIgA==
-
-"@madkas/cl-test-text@1.0.5", "@madkas/cl-test-text@^1.0.4", "@madkas/cl-test-text@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@madkas/cl-test-text/-/cl-test-text-1.0.5.tgz#7487f43dc81401ab66f5329c0bd2d9f796b8e0f5"
-  integrity sha512-xdoUsSCfsc9YZB2t3sbPCxzEPv1ma9kw5Bht6DtjFgBkBlVYriCK5s4AsIRlQ/Epf0Fm6C/aU4Gq63NTYW1uNw==
+"@madkas/cl-test-text@^1.0.5", "@madkas/cl-test-text@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@madkas/cl-test-text/-/cl-test-text-1.0.6.tgz#b25999b83b56f5e846ead363d25a11da7ee3df67"
+  integrity sha512-0ktlF9Mx59u0Epgsk1O2NpT0LJ9WUHfAmlrQQtwFlxrG6Vpebp5+OkAs+HgDYDN9GjU5QHfvygVup0iEkqO5Hw==
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
