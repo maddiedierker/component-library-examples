@@ -1,6 +1,11 @@
 import React from "react";
 import Button from "@madkas/cl-test-button";
+
 import ConflictingConsumerButton from "@madkas/cl-consumer";
+// Contents of ConflictingConsumerButton:
+// export default function MyButton() {
+//   return <Button text="cl-consumer button" />;
+// }
 
 const data = {
   headers: ["Component", "Rendered"],
